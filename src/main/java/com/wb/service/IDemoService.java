@@ -15,4 +15,6 @@ public interface IDemoService {
 	public void deleteObject();
 	
 	public void AddProject();
+	
+	public void Main1();
 }
