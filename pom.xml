@@ -9,6 +9,8 @@
 	<url>http://maven.apache.org</url>
 
 	<properties>
+		<!-- 字符集编码 -->
+		<encoding>utf8</encoding>
 		<!-- spring 版本 -->
 		<spring-version>4.2.3.RELEASE</spring-version>
 		<slf4j.version>1.7.12</slf4j.version>
