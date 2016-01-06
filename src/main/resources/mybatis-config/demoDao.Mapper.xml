@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.wb.dao.IDemoDao">
+	
+	<resultMap type="com.wb.model.DemoModel" id="demo">
+		<id column="id" property="id"/>
+		<result property="name" column="name"></result>
+	</resultMap>
+	
+	<select id="findDemoList" resultMap="demo">
+		select id,name from demo1
+	</select>
+	
+	<select id="getDemoListById" parameterType="java.lang.Integer" resultMap="demo">
+		select id,name from demo1 where id = #{0}
+	</select>
+	
+	<select id="queryThreadDemoList" parameterType="java.util.Map" resultMap="demo">
+		select id,name from demo1 limit ${index},${page}
+	</select>
+	
+</mapper>
