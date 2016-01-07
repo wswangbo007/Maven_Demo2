@@ -14,5 +14,4 @@ public interface IDemoService {
 	
 	public void deleteObject();
 	
-	public void AddProject();
-}
+ }
