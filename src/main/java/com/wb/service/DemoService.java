@@ -66,10 +66,4 @@ public class DemoService implements IDemoService {
 		}
 		return demoList;
 	}
-	
-	@Override
-	public void deleteObject() {
-		
-	}
-	
 }
