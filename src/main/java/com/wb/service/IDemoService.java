@@ -11,10 +11,4 @@ public interface IDemoService {
 	public DemoModel getDemoListById(int id);
 	
 	List<DemoModel> getDemoList();
-	
-	public void deleteObject();
-	
-	public void AddProject();
-	
-	public void Main1();
 }
