@@ -12,5 +12,6 @@
 <body>
 	<a onclick="getObjectById()">获取ID</a>
 	<span id="showSpan">123123213213213</span>
+	<a href="/Maven_Demo2/login/forLoginJsp">login</a>
 </body>
 </html>
